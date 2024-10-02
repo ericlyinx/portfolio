@@ -1,0 +1,174 @@
+html{
+    background: black;
+    color: white;
+    font-family: Roboto;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu{
+    background: rgba(3, 26, 20, 0.4);
+    display: flex;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.nick {
+    flex: 1;
+    padding: 10px 50px;
+    font-size: 30px;
+    font-family: orkney;
+}
+
+.listmenu{
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center;
+    gap: 5rem;
+    padding-right: 3rem;
+}
+
+.listmenu a:hover{
+    color:#2EA690;
+}
+
+a{
+    color: white;
+}
+
+.header {
+    display: flex;
+    width: auto;
+    height: 35rem;
+    margin: 2rem 4rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(23, 115, 89, 0.289) 0px 50px 100px -20px, rgba(46, 166, 144, 0.634) 0px 30px 60px -30px;
+}
+
+.backg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.logo{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.logo:hover{
+    transform: scale(1.03);
+}
+
+.content{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.title{
+    height: 140px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 70px;
+    font-family: orkney;
+}
+
+span{
+    color: #177359;
+}
+
+.subtitle{
+    height: 2rem;
+    padding: 0 80px;
+    display: flex;
+    align-items: start;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.descrition{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 20px;
+    width: 90%;
+}
+
+.btn{
+    margin-right: 5rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.btn a{
+    border-radius: 10px;
+    border: 3px solid #2EA690;
+    padding: 15px;
+}
+
+.btn a:hover{
+    background-color: #2EA690;
+    border: 3px solid rgba(3, 26, 20);
+    color:rgba(3, 26, 20);
+}
+
+.skills{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    margin: 20px;
+    height: 4vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.icons{
+    height: 50px;
+    opacity: 40%;
+}
+
+.icons:hover{
+    opacity: 100%;
+    height: 60px;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 40%;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
